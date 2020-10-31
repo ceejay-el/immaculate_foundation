@@ -899,6 +899,13 @@ p{
     display: flex;
     padding: 1rem;
 }
+@media (max-width: 600px){
+  .highlights-item {
+    display: flex;
+    flex-direction: column;
+  }
+  .highlights-info a p { font-size: .7rem;}
+}
 .highlights-item .highlights-info:nth-child(odd) {
     text-align: right;
     margin-right: 2rem;
