@@ -891,7 +891,36 @@ p{
     border-radius: 2px;
     box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, .15);
 }
-/* end of our focus section ... again, very poor choice of words --------------------------------------------- */
+/* end of our-focus section ... again, very poor choice of words --------------------------------------------- */
+
+/* highlights section --------------------------------------------------------------------------------------- */
+.highlights-item {
+    cursor: pointer;
+    display: flex;
+    padding: 1rem;
+}
+.highlights-item .highlights-info:nth-child(odd) {
+    text-align: right;
+    margin-right: 2rem;
+  }
+.highlights-thumb {
+    width: 10rem;
+    height: 10rem;
+    margin-right: 2rem;
+}
+.highlights-thumb:active { border: 1px solid var(--blue);}
+.fit-photo img {
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+}
+.initiative-title h3 {
+    color: var(--purple-grey);
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+}
+/* end of highlights section -------------------------------------------------------------------------------- */
+
 
 .schedule-wrap {
     padding: 40px;
